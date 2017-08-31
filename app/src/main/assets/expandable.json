@@ -1,0 +1,38 @@
+ {
+"category": [
+        {
+            "id": 6,
+            "name": "India",
+            "parentid": "1",
+            "childs": [
+                {
+                    "id": "6A",
+                    "name": "Sachine",
+                    "parentid": "6"
+                },
+                {
+                   
+                    "name": "Dhoni",
+                    "parentid": "6"
+                }
+            ]
+        },
+    {
+            "id": 7,
+            "name": "India",
+            "parentid": "1",
+            "childs": [
+                {
+                    "id": "7A",
+                    "name": "Social",
+                    "parentid": "7"
+                },
+                {
+                    "id": "7B",
+                    "name": "Knowledge",
+                    "parentid": "7"
+                }
+            ]
+    }   
+   ]
+}

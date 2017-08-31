@@ -42,6 +42,7 @@ public class AppEditTextActivity extends AppCompatActivity implements AdapterApp
 
     public List<ModelAppEditText> getListAppEditText() {
         alAppEditText = new ArrayList<>();
+        alAppEditText.add(new ModelAppEditText(0, ""));
         alAppEditText.add(new ModelAppEditText(1, ""));
         alAppEditText.add(new ModelAppEditText(2, ""));
         alAppEditText.add(new ModelAppEditText(3, ""));
@@ -50,8 +51,6 @@ public class AppEditTextActivity extends AppCompatActivity implements AdapterApp
         alAppEditText.add(new ModelAppEditText(6, ""));
         alAppEditText.add(new ModelAppEditText(7, ""));
         alAppEditText.add(new ModelAppEditText(8, ""));
-        alAppEditText.add(new ModelAppEditText(9, ""));
-        alAppEditText.add(new ModelAppEditText(10, ""));
 
         return alAppEditText;
     }
